@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+    color: #fff;
+}
+
+
+::selection{
+   background-color: #18185a;
+}
+
+
+body {
+
+    background: url(./image/3242104.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+/* =====> <user-log-in-info> <===== */
+
+.bank{
+
+    color: #fff;
+    background-image: url(./image/martin-martz-h4qed_IO9d0-unsplash.jpg);
+    display: inline-block;
+    margin-left: 35% ;
+    padding: 10px 20px;
+    margin-top: 6%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #8383eb;
+
+}
+
+#log-in {
+
+    margin: 10% 30% ;
+    display: inline-block;
+    width: 30%;
+    height: 35vh;
+    padding: 2% 2%;
+    background: url(./image/martin-martz-h4qed_IO9d0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px #362715;
+  
+}
+
+#log-in-ui {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#log-in-ui > label{
+
+    color: #fff;
+    font-weight:bold ;
+    text-transform: capitalize;
+    font-size: 140%;
+    margin-bottom: 10px;
+
+}
+
+#log-in-ui > input{
+
+    width: 50%;
+    padding: 0.7rem  1rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #8383eb;
+    transition: 1s all;
+    margin-bottom: 5%;
+    color: #fff;
+    font-size: 104%;
+
+}
+#log-in-ui > input::placeholder{
+
+    color: #fff;
+    background-color: transparent;
+
+}
+
+#log-in-ui >  button{
+
+    width: 20%;
+    padding: 7px 1rem;
+    border-radius: 5px;
+    font-size: 110%;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 0px 0px 5px #9772bd;
+    background-color: #7373a5;
+    color: #fff;
+    transition: 1s all;
+}
+#log-in-ui >  button:hover{
+
+    color: #000;
+    background-color: #8383eb;
+
+}
+
+/* =====> </user-log-in-info> <===== */
+
+
+ /* =====> <user-Ammount-Info> <===== */
+
+ #userAmmountInfo{
+
+    background-image: url(./image/martin-martz-h4qed_IO9d0-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1% 2% 0% 2%;
+
+ }
+
+
+ #main{
+
+    width: 60%;
+    height: auto;
+    margin: 0% auto;
+    margin-top: 10%;
+
+ }
+ #displayAmmount{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+
+ }
+ #displayAmmount > div{
+ 
+    padding: 2% 3%;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 5%;
+    margin: 0px 10px 0px 10px;
+    transition: all 1s;
+ }
+ #displayAmmount >  div:nth-child(1){
+    background-color: #a0aa48;
+    box-shadow: 0px 0px 10px #16162b;
+ }
+
+ #displayAmmount >  div:nth-child(2){
+    background-color: #1fc7f1;
+    box-shadow: 0px 0px 10px #16162b;
+ }
+ #displayAmmount >  div:nth-child(3){
+    background-color: #54b108;
+    box-shadow: 0px 0px 10px #16162b;
+ }
+ #userAccountInput{
+    padding: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #userAccountInput > div{
+    padding: 2% 6%;
+    border-radius: 3%;
+    margin:  0px 4%;
+    font-size: 150%;
+    box-shadow: 0px 0px 10px #1a1a0e;
+    text-transform: capitalize;
+ }
+ #userAccountInput > div > input{
+    border: none;
+    padding: 12px 1rem;
+    margin: 10% 0%;
+    background-color: transparent;
+    border-bottom: 3px #ccd3cc solid;
+    width: 100%;
+ }
+
+ #userAccountInput > div > input::placeholder{
+    color: #fffaf0;
+    font-size: 103%;
+ }
+ #userAccountInput > div > button{
+    border: none;
+    padding: 5% 10%;
+    background-color: #1fc7f1;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;  
+    color: #413f3f;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+    transition: all 0.6s;
+ }
+
+ #userAccountInput > div > button:hover{
+    background:  #0e438a;
+    color: #ffffff;
+ }
+ #userAccountInput > div:nth-child(1){
+    background-color: #266121;
+ }
+ #userAccountInput > div:nth-child(2){
+    background-color: #6e1325;
+ }
+ /* =====> </user-Ammount-Info> <===== */

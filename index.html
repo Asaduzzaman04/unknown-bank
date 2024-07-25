@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>unknown bank</title>
+  </head>
+
+  <body>
+    <!-- =====> main-container <===== -->
+    <div class="container">
+      <!-- =====> <welcome-quote> <===== -->
+      <h2 class="bank">welcome to unknown bank</h2>
+      <!-- =====> </welcome-quote> <===== -->
+
+      <!-- =====>user-input-section<===== -->
+
+      <section id="userInput" class="first-section" style="display: none;" >
+        <div id="log-in">
+          <form>
+            <div id="log-in-ui">
+              <!-- =====> <user-email-input-section> <===== -->
+
+              <label for="email" id="user-email">email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your E-mail"
+                required
+              />
+              <!-- =====> </user-email-input-section> <===== -->
+
+              <!-- =====> <user-password-input-section> <===== -->
+
+              <label for="password" id="user-password">password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+
+              <!-- =====> </user-password-input-section> <===== -->
+
+              <!-- =====> <submit-button-section> <===== -->
+
+              <button id="button">submit</button>
+
+              <!-- =====> </submit-button-section> <===== -->
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- =====> <user-account-info> <===== -->
+
+      <section id="userAmmountInfo" class="second-section">
+            <div id="main">
+                <!-- =====> <user-current-money-section> <===== -->
+
+                    <div id="displayAmmount">
+
+                        <!-- =====> deposit-section <===== -->
+                        <div>
+                            <p id="total">💰deposit</p>
+                            <p >$ <span id="deposit"></span></p>
+                        </div>
+                        <!-- =====> withdraw-section <===== -->
+                        <div>
+                            <p id="total">💸withdraw</p>
+                            <p>$<span id="withdraw"></span></p>
+                        </div>
+                        <!-- =====> balance-section <===== -->
+                        <div>
+                            <p id="total">💵balance</p>
+                            <p >$<span id="balance"></span></p>
+                        </div>
+                    </div>
+
+                <!-- =====> </user-current-money-section> <===== -->
+
+                 <!-- =====> <user-deposit-section> <===== -->
+
+                    <div id="userAccountInput">
+                        <!-- =====> <user-deposit-input> <===== -->
+
+                            <div id="userDeposit">
+                                <p>deposit</p>
+                                <input type="number" placeholder="$ammount you went to deposit" id="deposit-money">
+                                <br>
+                                <button id="deposit-btn">deposit</button>
+                            </div>
+
+
+                            <div id="userWithdraw">
+                                <p>withdraw</p>
+                                <input type="number" placeholder="$ammount you went to withdraw"  id="withdraw-input">
+                                <br>
+                                <button id="withdraw-btn"> withdraw</button>
+                            </div>
+                            
+                        <!-- =====> </user-deposit-input> <===== -->
+                    </div>
+
+                 <!-- =====> </user-deposit-section> <===== -->
+            </div>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
