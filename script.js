@@ -35,12 +35,13 @@ deposidBtn.addEventListener("click", () => {
   const depoInputNum = parseFloat(depoInput.value);
 
   // =====> display-deposit-catch <===== \\
+  const balaceDisplay = document.getElementById('balance').innerText;
+  const bDisTONum = parseFloat(balaceDisplay);
+  const finalBalace = document.getElementById('balance').innerText =depoInputNum;
 
   const disDeops = document.getElementById('deposit').innerText;
   const disDeopsNum = parseFloat(disDeops);
-  const res = disDeopsNum + depoInputNum;
-  document.getElementById('deposit').innerText = res; 
-  
+  const finalDepos = document.getElementById('deposit').innerText = depoInputNum;
 });
 
 
