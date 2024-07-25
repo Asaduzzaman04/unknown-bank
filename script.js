@@ -49,7 +49,12 @@ const withdrawButton = document.getElementById("withdraw-btn");
 
 
 withdrawButton.addEventListener(`click`, () => {
+const withdrawDisplay = document.getElementById('withdraw').innerText;
+const wDidToNum = parseFloat(withdrawDisplay);
 
+const withdrawInput = document.getElementById('withdraw-input')
+const widthInputNum = parseFloat(withdrawInput.value);
+const final = document.getElementById('withdraw').innerText = widthInputNum;
 
 });
 
